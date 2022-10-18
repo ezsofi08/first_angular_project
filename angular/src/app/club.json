@@ -2,19 +2,19 @@
 [
         {
             "id":1,
-            "name":"Horgász klubb"
+            "name":"Horgász klub"
             
         },
 
         {
             "id":2,
-            "name":"Könyv klubb"
+            "name":"Könyv klub"
             
         },
 
         {
             "id":3,
-            "name":"Cukrász klubb"
+            "name":"Cukrász klub"
             
         }      
 ]
