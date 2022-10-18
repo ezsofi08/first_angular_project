@@ -1,6 +1,6 @@
 import { TemplateBindingParseResult } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
-import clubb from "../club.json";
+import club from "../club.json";
 import member from "../member.json";
 import object from "../object.json";
 
@@ -31,7 +31,7 @@ interface Object
 interface Teszt
 {
     szemely:Member[];
-    klubb:Klub;
+    klub:Klub;
 
 }
    
@@ -59,7 +59,7 @@ export class KlubbokComponent implements OnInit {
        var temp:Teszt=
        {
         szemely:[],
-        klubb:temp0
+        klub:temp0
 
        };
        
@@ -82,7 +82,7 @@ export class KlubbokComponent implements OnInit {
   }
 
 
-  klubok:Klub[]=clubb;
+  klubok:Klub[]=club;
   members:Member[]=member;
   objects:Object[]=object;
 
