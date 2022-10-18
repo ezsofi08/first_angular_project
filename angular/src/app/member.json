@@ -1,0 +1,35 @@
+[ {
+        "id":1,
+        "name": "Patrik",
+        "gender": false,
+        "club_id":1
+    },
+
+    {
+        "id":2,
+        "name": "Bence",
+        "gender": false,
+        "club_id":2
+    },
+
+    {
+        "id":3,
+        "name": "Tomi",
+        "gender": false,
+        "club_id":3
+    },
+
+    {
+        "id":4,
+        "name": "Marci",
+        "gender": true,
+        "club_id":1
+    },
+
+    {
+        "id":5,
+        "name": "Zsófi",
+        "gender": true,
+        "club_id":2
+    }
+]   
