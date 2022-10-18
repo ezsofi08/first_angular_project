@@ -5,7 +5,7 @@ import member from "../member.json";
 import object from "../object.json";
 
 
-interface Klubb
+interface Klub
 {
   id:Number;
   name: String;
@@ -31,7 +31,7 @@ interface Object
 interface Teszt
 {
     szemely:Member[];
-    klubb:Klubb;
+    klubb:Klub;
 
 }
    
@@ -52,9 +52,9 @@ export class KlubbokComponent implements OnInit {
   constructor() {
 
 
-    for(let i = 0;i<this.klubbok.length;i++)
+    for(let i = 0;i<this.klubok.length;i++)
     {
-      var temp0:Klubb=this.klubbok[i]
+      var temp0:Klub=this.klubok[i]
 
        var temp:Teszt=
        {
@@ -66,7 +66,7 @@ export class KlubbokComponent implements OnInit {
        for(let j = 0;j<this.members.length;j++)
        {
         
-        if(this.klubbok[i].id == this.members[j].club_id)
+        if(this.klubok[i].id == this.members[j].club_id)
         {
           
           temp.szemely.push(this.members[j])
@@ -82,7 +82,7 @@ export class KlubbokComponent implements OnInit {
   }
 
 
-  klubbok:Klubb[]=clubb;
+  klubok:Klub[]=clubb;
   members:Member[]=member;
   objects:Object[]=object;
 
