@@ -26,5 +26,11 @@
         "id":5,
         "name":"kocsi",
         "member_id":4
+    },
+
+    {
+        "id":6,
+        "name":"pénz",
+        "member_id":3
     }
  ]
