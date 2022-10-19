@@ -6,25 +6,25 @@
 
     {
         "id":2,
-        "name":"make-up",
+        "name":"smink",
         "member_id":5
     },
 
     {
         "id":3,
-        "name":"chair",
+        "name":"tepsi",
         "member_id":2
     },
 
     {
         "id":4,
-        "name":"phone",
+        "name":"telefon",
         "member_id":2
     },
 
     {
         "id":5,
-        "name":"car",
+        "name":"kocsi",
         "member_id":4
     }
  ]

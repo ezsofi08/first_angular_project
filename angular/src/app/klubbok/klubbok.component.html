@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="klubbok.component.css">
 </head>
 <body>
-                <h1>Klub tagság:</h1>
-                     <div *ngFor="let t of teszt"> 
-                        <div class="klubok">{{t.klub.name}}:</div>
+    <div class="box">
+
+                     <div class="k" *ngFor="let t of teszt"> 
+                        <div class="klubok">{{t.klub.name}}</div>
                             <div *ngFor="let x of t.obj_mem"> 
-                                <div class="emberek">{{x.member.name}}:</div>
+                                <div class="emberek">{{x.member.name}}: </div>
                                 <div class="targyak">{{x.object.name}}</div>
                                     
-                    </div>
-                    </div>
+                            </div>
+                        </div>
+     </div>
                     
 </body>
 </html>
