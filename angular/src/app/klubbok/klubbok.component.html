@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Klubok</title>
     <link rel="stylesheet" href="klubbok.component.css">
 </head>
 <body>
-                <h1>Klubb tagság:</h1>
+                <h1>Klub tagság:</h1>
                      <div *ngFor="let t of teszt"> 
                         <div class="klubok">{{t.klub.name}}:</div>
-                            <div *ngFor="let s of t.szemely">  
-                                <div>{{s.name}}</div>
-</div>
-</div>
+                            <div *ngFor="let x of t.obj_mem"> 
+                                <div class="emberek">{{x.member.name}}:</div>
+                                <div class="targyak">{{x.object.name}}</div>
+                                    
+                    </div>
+                    </div>
+                    
 </body>
 </html>
 

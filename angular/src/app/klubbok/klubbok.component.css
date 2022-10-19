@@ -1,8 +1,12 @@
-h1{
-    color: tomato;
-    text-align: left;
-}
 
-.klubok{
+/*.klubok{
     font-size: larger;
+}*/
+
+
+h1{
+    color: darkseagreen;
+    text-align: center;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
